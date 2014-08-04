@@ -14,6 +14,7 @@
 {
     // Override point for customization after application launch.
     NSLog(@"hi im in appdelegate");
+    NSLog(@"testinggggggg");
     return YES;
 }
 							
