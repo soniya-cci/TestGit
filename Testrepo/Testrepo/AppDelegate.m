@@ -14,7 +14,8 @@
 {
     // Override point for customization after application launch.
     NSLog(@"hi im in appdelegate");
-    NSLog(@"testinggggggg");
+    NSLog(@"ok learning sourcetree");
+
     return YES;
 }
 							
