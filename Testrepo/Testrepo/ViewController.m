@@ -70,6 +70,7 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    NSLog(@"mem wrng");
 }
 
 @end
