@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -15,6 +17,21 @@
     // Override point for customization after application launch.
     NSLog(@"hi im in appdelegate");
     NSLog(@"ok learning sourcetree");
+    
+    [Parse setApplicationId:@"dR3n0vdnEU9jXiCykbSMzKOfcNBAiCJS9Eqj8K94"
+                  clientKey:@"Y685XbMqZGJZgQ6FYIBsN1G87rn0jLF1sbmxYbwc"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+//    self.window = [[UIWindow alloc] initWithFrame:
+//                   [[UIScreen mainScreen] bounds]];
+//    
+//    // Override point for customization after application launch.
+//    self.viewController = [[ViewController alloc]
+//                           initWithNibName:@"ViewController" bundle:nil];
+//    self.window.rootViewController = self.viewController;
+//    [self.window makeKeyAndVisible];
+//    return YES;
 
     return YES;
 }
